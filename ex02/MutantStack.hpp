@@ -4,6 +4,8 @@
 #include <stack>
 #include <algorithm>
 
+//Last in first out
+
 template <typename T>
 class MutantStack : public std::stack<T>
 {
